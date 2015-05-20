@@ -1,0 +1,9 @@
+{application, yaws_json2,
+ [{description, "yaws-json2 is encoder/decoder taked from Yaws webserver"},
+  {vsn, "0.1"},
+  {modules, [yaws_json2]},
+  {registered, []},
+  {applications, [kernel, stdlib]},
+  {included_applications, []},
+  {env, []}
+]}.
