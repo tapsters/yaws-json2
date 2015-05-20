@@ -14,7 +14,7 @@
 %%% The Initial Developer of the Original Code is A2Z Development USA, Inc.
 %%% All Rights Reserved.
 
--module(json2).
+-module(yaws_json2).
 -export([encode/1, decode_string/1, decode/2]).
 -export([is_obj/1, obj_new/0, obj_fetch/2, obj_find/2, obj_is_key/2]).
 -export([obj_store/3, obj_from_list/1, obj_fold/3]).
